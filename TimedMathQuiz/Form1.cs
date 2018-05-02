@@ -179,6 +179,7 @@ namespace TimedMathQuiz
 			{
 				//Console.Beep();
 				System.Media.SystemSounds.Beep.Play();
+				difference.Focus();
 			}
 		}
 
@@ -187,6 +188,7 @@ namespace TimedMathQuiz
 			if (minuend - subtrahend == difference.Value)
 			{
 				System.Media.SystemSounds.Beep.Play();
+				product.Focus();
 			}
 
 		}
@@ -196,6 +198,7 @@ namespace TimedMathQuiz
 			if (multiplicand * multiplier == product.Value)
 			{
 				System.Media.SystemSounds.Beep.Play();
+				quotient.Focus();
 			}
 		}
 
